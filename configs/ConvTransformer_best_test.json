@@ -1,0 +1,16 @@
+{
+  "model_name": "ConvTransformer",
+    "search_parameters": {
+      "kernel_size": [[6,7,7],[6,7,7],[6,7,7],[6,7,7],[6,7,7],[6,7,7],[6,7,7],[6,7,7],[6,7,7],[6,7,7]],
+      "channel_num": [12],
+      "downSamplingDim": [30],
+      "n_head": [1],
+      "num_layers": [1],
+       "lr":  [0.0005]
+  },
+  "image_size": [30, 40],
+  "batch_size": 32,
+  "num_epochs": 10000,
+  "patience": 30,
+  "GPU": true
+}

@@ -1,0 +1,16 @@
+{
+  "search_parameters": {
+        "input_dim" : [1200],
+        "hidden_dim" : [400,500,600,800,1000,1200,1400,2400],
+        "num_layers" : [1],
+    "lr":  [0.0005,0.00005,0.000005]
+  },
+    "model_name": "lstm",
+    "timeStep": 13,
+    "batch_size": 32,
+    "num_epochs": 10000,
+    "patience": 30,
+    "GPU": true,
+    "plot_loss": true,
+    "plot_prediction_result": true
+}

@@ -1,0 +1,17 @@
+{
+  "search_parameters": {
+  "num_layers": [1,1,1,1,1,1,1,1,1,1],
+  "patch_size": [[2,2]],
+  "token_dim": [30],
+   "lr":  [0.00005]
+  },
+    "model_name": "VIT",
+    "n_head": 2,
+    "image_size": [30, 40],
+    "batch_size": 32,
+    "num_epochs": 10000,
+    "patience": 5,
+    "GPU": true,
+    "plot_loss": true,
+    "plot_prediction_result": true
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "mixMlp",
+  "n_head": 2,
+  "num_layers": 3,
+  "patch_size": [10,10],
+  "image_size": [30,40],
+  "batch_size": 32,
+  "num_epochs": 10000,
+  "lr": 0.000005,
+  "patience": 30,
+  "GPU": true
+}

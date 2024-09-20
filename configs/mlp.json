@@ -1,0 +1,15 @@
+{
+  "model_name": "Mlp",
+  "input_dim": 1200,
+  "search_parameters": {
+    "hidden_dim": [400,500,600,800,1000,1200,1400,1600,2000,2400,3000,3600],
+    "lr": [0.001,0.0005,0.00005,0.000005,0.0000005]
+  },
+  "batch_size": 32,
+  "num_epochs": 10000,
+  "patience": 30,
+  "GPU": true
+}
+
+
+

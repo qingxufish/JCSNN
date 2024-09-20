@@ -1,0 +1,16 @@
+{
+  "model_name": "JCSNN",
+    "search_parameters": {
+      "kernel_size": [[6,3,3],[6,4,4],[6,5,5],[6,6,6],[6,7,7],[6,8,8]],
+      "channel_num": [4,8,12,24,32],
+      "downSamplingDim": [30,60,80,256],
+      "n_head": [1],
+      "num_layers": [1,2],
+       "lr":  [0.01, 0.001,0.0005,0.00005,0.000005,0.0000005]
+  },
+  "image_size": [30, 40],
+  "batch_size": 32,
+  "num_epochs": 10000,
+  "patience": 30,
+  "GPU": true
+}

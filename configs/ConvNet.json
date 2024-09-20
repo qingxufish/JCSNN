@@ -1,0 +1,17 @@
+{
+  "search_parameters": {
+  "num_layers": [1,2,3,4],
+  "patch_size": [[2,2],[2,4],[3,2],[3,4],[5,4],[5,5],[6,8]],
+  "token_dim": [30],
+   "lr":  [0.1,0.01,0.001,0.0005,0.00005,0.000005,0.0000005]
+  },
+    "model_name": "ConvNet",
+    "n_head": 2,
+    "image_size": [30, 40],
+    "batch_size": 32,
+    "num_epochs": 10000,
+    "patience": 30,
+    "GPU": true,
+    "plot_loss": true,
+    "plot_prediction_result": true
+}
